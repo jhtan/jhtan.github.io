@@ -6,7 +6,7 @@ on:
       - main  # Set a branch that will trigger a deployment
   pull_request:
 
-permissions: read-all | write-all
+permissions: write-all
 
 jobs:
   deploy:
